@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="images/calculator.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <div class="container mt-5 ">
+        <div class="row">
+            <div class="col-12 col-md-4 mx-auto">
+                <div class="border p-3 rounded  bg-light">
+                    <!-- Calculator display -->
+                    <div class=" ">
+                        <input type="text" name="input" id="input" class="w-100 py-3 mb-3 font rounded">
+                    </div>
+    
+                    <!-- Calculator buttons -->
+                     <div class="d-flex flex-column gap-2">
+                    <div class="row">
+                        <div class="col-3"><button class="btn medium-purple w-100 font" onclick="deleteOp(this)">DEL</button></div>
+                        <div class="col-3"><button class="btn medium-purple w-100 font" onclick="clearOp(this)">AC</button></div>
+                        <div class="col-3"><button class="btn medium-purple w-100 font" onclick="operator(this)">%</button></div>
+                        <div class="col-3"><button class="btn light-purple text-light w-100 font" onclick="operator(this)">/</button></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3"><button class="btn very-light-purple w-100 font" onclick="element(this)"onclick="element(this)"> 7 </button></div>
+                        <div class="col-3"><button class="btn very-light-purple w-100 font" onclick="element(this)">8</button></div>
+                        <div class="col-3"><button class="btn very-light-purple w-100 font" onclick="element(this)">9</button></div>
+                        <div class="col-3"><button class="btn light-purple text-light w-100 font" onclick="operator(this)">*</button></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3"><button class="btn very-light-purple w-100 font" onclick="element(this)">4</button></div>
+                        <div class="col-3"><button class="btn very-light-purple w-100 font" onclick="element(this)">5</button></div>
+                        <div class="col-3"><button class="btn very-light-purple w-100 font" onclick="element(this)">6</button></div>
+                        <div class="col-3"><button class="btn light-purple text-light w-100 font" onclick="operator(this)">-</button></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3"><button class="btn very-light-purple dark-fonts w-100 font" onclick="element(this)">1</button></div>
+                        <div class="col-3"><button class="btn very-light-purple dark-fonts w-100 font" onclick="element(this)">2</button></div>
+                        <div class="col-3"><button class="btn very-light-purple dark-fonts w-100 font" onclick="element(this)">3</button></div>
+                        <div class="col-3"><button class="btn light-purple text-light w-100 font" onclick="operator(this)">+</button></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 "><button  class="btn very-light-purple dark-fonts w-100 font zero-btn " onclick="element(this)">0</button></div>
+                        <!-- <div class="col-3"><button class="btn very-light-purple dark-fonts w-100 font"onclick="element(this)">0</button></div> -->
+                        <div class="col-3"><button class="btn very-light-purple dark-fonts w-100 font"onclick="element(this)">.</button></div>
+                        <div class="col-3"><button class="btn light-purple text-light w-100 font"onclick="result(this)">=</button></div>
+                    </div>
+                    <!-- Add more rows for other buttons -->
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <script src="app.js"></script>
+    <script src="bootstrap.js"></script>
+</body>
+
+</html>
