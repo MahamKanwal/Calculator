@@ -1,11 +1,11 @@
 body{
-    background-color: #8E83CF !important;
+    background-color:  pink!important;
 }
 .dark-purple{
-    background-color: #4C4D6B;
+    background-color: #F5D9E3;
 }
 .light-purple{
-    background-color: #8E83CF  !important;
+    background-color: pink  !important;
    
 }
 .light-purple:hover{
@@ -13,19 +13,19 @@ body{
     color: black !important;
 }
 .medium-purple{
-    background-color: #D9D6E9  !important;
+    background-color: #FFE5EE  !important;
 }
 .medium-purple:hover{
-    background-color: #8E83CF !important;
+    background-color: pink !important;
     color: white !important;
 }
 .border-main{
-    border-color: #8E83CF !important;
+    border-color: pink !important;
     border-width: 30px !important;
 }
 input{
     border-color: transparent;
-    background-color: #8E83CF;
+    background-color:pink;
     color: white !important;
     font-size: 20px;
     outline: none;
@@ -47,7 +47,7 @@ input{
     
 }
 .dark-fonts{
-    color: #4C4D6B;
+    color: #F5D9E3;
 }
 button{
     width: 60px;
